@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000/produtos';
+const baseUrl = environment.apiUrl;
 
 export const getProdutos = async () => {
     try {
